@@ -67,9 +67,11 @@ public class Retor {
         associationNumbersNumbersInternCircle.put(5, 24);
         associationNumbersNumbersInternCircle.put(11, 25);
         associationNumbersNumbersInternCircle.put(8, 26);
+    }
 
-        // associationNumbersNumbersBetweenCircles
-        associationNumbersNumbersBetweenCircles.put(1, 18);
+    public void setAssociationLettersNumbersBetweenCircle(Integer keyAccess)
+    {
+        associationNumbersNumbersBetweenCircles.put(1, keyAccess);
 
         for (int number = 2; number < 27; number++)
         {
@@ -82,7 +84,6 @@ public class Retor {
 
             associationNumbersNumbersBetweenCircles.put(number, addition);
         }
-
     }
 
     public void tournerRetor()
